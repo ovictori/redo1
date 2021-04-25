@@ -1,5 +1,5 @@
 import React from "react";
-
+import { csv } from "d3-fetch";
 const viewHeight = 500;
 const viewWidth = 500;
 
@@ -8,8 +8,7 @@ const viewWidth = 500;
 //3. make sure data is in your root, push it to your repository, select it raw, copy githubcontent link.
 
 const App = () => {
-    fetch("https://raw.githubusercontent.com/ovictori/redo1/main/weather.csv")
-    .then(response => response.json())
+    csv("https://raw.githubusercontent.com/ovictori/redo1/main/weather.csv")
     .then((data) => console.log(data))
     return (
         <div>

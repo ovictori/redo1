@@ -5,12 +5,13 @@
   "main": "dist/index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --public-url https://ovictori.github.io/react-parcel-eg1" ,
+    "build": "parcel build index.html --public-url https://ovictori.github.io/react-parcel-eg1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Akoly Vongdala",
   "license": "MIT",
   "dependencies": {
+    "d3-fetch": "^2.0.0",
     "parcel": "^2.0.0-beta.2",
     "parcel-bundler": "^1.12.5",
     "react": "^17.0.2",
