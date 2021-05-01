@@ -2,7 +2,7 @@
   "name": "react-parcel-example-1",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.html",
+  "main": "docs/index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --public-url https://ovictori.github.io/redo1",
