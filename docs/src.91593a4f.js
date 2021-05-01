@@ -687,4 +687,4 @@ var t,r=function(t){"use strict";var r,e=Object.prototype,n=e.hasOwnProperty,o="
 },{"react":"HdMw","./hooks/useFetch":"CMqh","d3-scale":"ztAj","d3-array":"cBuZ","d3-geo-projection":"ijgS"}],"H99C":[function(require,module,exports) {
 "use strict";var e=u(require("react")),r=u(require("react-dom")),t=u(require("./App"));function u(e){return e&&e.__esModule?e:{default:e}}r.default.render(e.default.createElement(t.default,null),document.querySelector("#root"));
 },{"react":"HdMw","react-dom":"X9zx","./App":"FLHj"}]},{},["H99C"], null)
-//# sourceMappingURL=https://ovictori.github.io/react-parcel-eg1/src.91593a4f.js.map
+//# sourceMappingURL=https://ovictori.github.io/redo1/src.91593a4f.js.map
